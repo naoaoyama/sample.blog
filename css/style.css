@@ -61,7 +61,7 @@ figcaption > h2 {
 }
 
 .middle > header {
- background-image: url(../img/pexels-johannes-plenio-3724758.jpg);
+ background-image: url(/class02/img/pexels-johannes-plenio-3724758.jpg);
 }
 nav {
   background-color: slateblue;
@@ -161,7 +161,7 @@ nav a:hover {
 }
 
 .right > header {
-  background-image: url(../img/pexels-aysegul-alp-13742775.jpg);
+  background-image: url(/class02/img/pexels-aysegul-alp-13742775.jpg);
 }
 
 .right ul{
