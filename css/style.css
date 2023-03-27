@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: azure;
+  padding: 1%;
+}
+
+main {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.left, .right {
+  width: 25%;
+  background-color: lightsteelblue;
+}
+
+.middle {
+  width: 70%;
+}
+
+header {
+  height: 25vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  border: 0.3px solid whitesmoke;
+}
+
+figure {
+  position: relative;
+  height: 25vh;
+  width: 100%;
+  border: 0.3px solid whitesmoke;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+figcaption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  text-transform: capitalize;
+  background-color: rgba(80,80,80,.5);
+}
+
+figcaption > h2 {
+  background-color: transparent;
+}
+
+.middle > header {
+ background-image: url(/img/pexels-johannes-plenio-3724758.jpg);
+}
+nav {
+  background-color: slateblue;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  background-color: slateblue;
+  color: whitesmoke;
+}
+
+
+
+nav > ul{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+nav li {
+  display: flex;
+  width: 100%;
+}
+
+
+nav a {
+  width: 100%;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  padding: 5%;
+  transition: .4s;
+}
+
+nav a:hover {
+  background-color: whitesmoke;
+  color:slateblue;
+}
+
+.left {
+  width: 30%;
+}
+
+
+
+/* .left img {
+  width: 30vh;
+  height: 30vh;
+} */
+
+.left >article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+  /* background-color: lightgray; */
+  /* color: rgb(108, 108, 179); */
+}
+.left h2,
+.right h2 {
+  padding-left: 1vh;  /* color: white; */
+  /* background-color: rgb(108, 108, 179); */
+}
+
+
+
+.left  aside {
+  /* color: rgb(108, 108, 179); */
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+}
+
+.left strong,
+.left p {
+  color: steelblue;
+}
+
+.left a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+.middle h2 {
+  background-color: transparent;
+  border-bottom: 4px solid steelblue;
+  color: steelblue;
+}
+
+.middle > article {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4vh;
+  line-height: 1.5;
+}
+
+.right > header {
+  background-image: url(/img/pexels-aysegul-alp-13742775.jpg);
+}
+
+.right ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+  padding: 5%;
+}
+
+.right li {
+  list-style-type: none
+}
+
+.right a {
+  text-decoration: none;
+  color: dimgray;
+}
+
+footer {
+  background-color: steelblue;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+  text-align: center;
+  color: lightblue;
+}
+
