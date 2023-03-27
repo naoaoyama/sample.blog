@@ -64,8 +64,7 @@ figcaption > h2 {
  background-image: url(../img/pexels-johannes-plenio-3724758.jpg);
 }
 nav {
-  /* background-color: slateblue; */
-  background-color: brown;
+  background-color: slateblue;
   display: flex;
   justify-content: center;
 }
